@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 12;
+    margin: 12;
+
+}
+body{
+    background-color: grey;
+
+}
+.container {
+    background-image: url("The-Heroes-Avengers-Logo.jpg");
+    width: 1369px;
+    height: 690px ;
+    margin: 30px;
+    margin-top: 22px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.Menu-Bar
+{
+    background-color: rgb(38, 16, 109);
+    text-align: center;
+}
+.Menu-Bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:aliceblue;
+}
+.Menu-Bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.Menu-Bar ul li a
+{
+text-decoration: none;
+color:white;
+}
+.active,.Menu-Bar ul li :hover
+{
+background-color:rgb(53, 53, 125);
+border-radius: 3px;
+
+}
+.card{
+    text-align: left;
+    font-size: medium;
+    font-style: italic;
+    color: aliceblue;
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 60px;
+    margin-right: 22px;
+    border-radius: 10px;
+    
+}
+.card-container{
+    display: flex;
+
+}
+.title{
+    text-align: center;
+    background-color: crimson;
+    font-style: bold;
+    font-size: x-large;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-style: bold;
+}
+.container-title {
+    height: 5%;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+    color: black;
+    font-style: bold;
+    font-size:xx-large;
+    border-radius: 8px;
+    margin: 0%;
+
+
+
+}
