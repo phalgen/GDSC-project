@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: grey;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 200px;
+    background-image: url("Avengers_(comics)-White-Logo.wine.png");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+}
+.trending
+{
+    background: white;
+    width: 1500px;
+    height: 700px ;
+    margin: 30px;
+    margin-top: 100px;
+    border-radius: 15px; 
+    background-image: url("Avengers_(comics)-White-Logo.wine.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card
+{
+    background: #222A38;
+    width: 260px;
+    height: 400px ;
+    margin: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: #08090E;
+    background-image: url("avengers black.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card-image
+{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-image: "download.jpg";
+}
+.card-header
+{
+    text-align: center;
+    font-size: 1000%;
+    font: bolder;
+}
+
+.card h2
+{
+    text-align: center;
+    text-decoration: solid;
+    font-family: sans-serif;
+    margin: 95px 55px 0px;
+}
+.card p
+{
+    text-align: center;
+    text-decoration: solid;
+    font-family: sans-serif;
+    margin: 10px ;  
+}
+.card a
+{
+    text-align: center;
+    color: white;
+    background-color:black;
+    padding: 15px 20px;
+    display: block;
+    margin: 10px 55px;
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+}
+.card:hover
+{
+    background-color: black;
+    color: antiquewhite;
+    cursor:pointer;
+    transform: scale(1.04);
+    transition: all 0.9s ease;
+}
+.trending:hover
+{
+    background-color: black;
+    color: antiquewhite;
+    cursor:pointer;
+    transform: scale(1.04);
+    transition: all 0.9s ease;
+}
+.center {
+    text-align: center;
+    border: 3px solid #620606cb;
+}
+.title {
+    font-size: x-large;
+    text-align: center;
+    border:3px solid darkred ;
+}
+.card-container{
+    display: flex;
+
+
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+   
+    background-size:cover;
+    background-position: center;
+    background-color: rgb(201, 33, 33);
+    font-family: sans-serif;
+}
+.Menu-Bar
+{
+    background-color: rgb(38, 16, 109);
+    text-align: center;
+}
+.Menu-Bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:aliceblue;
+}
+.Menu-Bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.Menu-Bar ul li a
+{
+text-decoration: none;
+color:white;
+}
+.active,.Menu-Bar ul li :hover
+{
+background-color:rgb(53, 53, 125);
+border-radius: 3px;
+
+}
