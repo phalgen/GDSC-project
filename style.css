@@ -1,33 +1,50 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Abraham599 
-Abraham599
-/
-GDSC-project
-Private
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-GDSC-project/style.css
-@Abraham599
-Abraham599 Add files via upload
-Latest commit 23b5a24 6 days ago
- History
- 1 contributor
-76 lines (65 sloc)  1.48 KB
-
 /* Three columns side by side */
+html{
+  min-height: 100%;
+  white-space: normal;
+}
+body
+{
+    position: relative;  
+    background-size:cover;
+    background-position: center;
+    background-color: rgb(201, 33, 33);
+    font-family: sans-serif;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.Menu-Bar {
+  display: flex;
+    justify-content: center;
+    background-color: #2C3B4F;
+  
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.Menu-Bar a {
+  float: left;
+  justify-items: center;
+  padding: 15px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.Menu-Bar a:hover {
+  background-color: #C7CED9;
+  color: #222A38;
+}
+
+/* Add a color to the active/current link */
+.Menu-Bar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 .row{
   display: grid;
   grid-template-columns: 50vh 50vh 50vh 50vh;
@@ -53,12 +70,14 @@ Latest commit 23b5a24 6 days ago
   
   /* Add some shadows to create a card effect */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: #C7CED9;
+    background-color: #222A38;
+    transform: translateY(10px);
   }
   .card:hover{
     border-radius: 13%;
 
-    background-color: black;
+    background-color: #08090E;
     color: antiquewhite;
     cursor:pointer;
     transform: scale(1.04);
@@ -103,18 +122,11 @@ font-family: 'League Spartan', sans-serif;
 font-family: 'Pacifico', cursive;
 font-family: 'Spline Sans', sans-serif;
   }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-GDSC-project/style.css at main · Abraham599/GDSC-project
+  footer {
+    
+    clear: both;
+    position:relative;
+    height: 150px;
+    margin-top: -3200px;
+    width: 100%;
+}
