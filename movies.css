@@ -19,34 +19,37 @@ body{
     background-size: 100%;
 
 }
-.Menu-Bar
-{
-    background-color: rgb(38, 16, 109);
+.Menu-Bar {
+    display: flex;
+      justify-content: center;
+      background-color: #2C3B4F;
+    
+      text-align: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .Menu-Bar a {
+    float: left;
+    justify-items: center;
+    padding: 15px;
+    color: #f2f2f2;
     text-align: center;
-}
-.Menu-Bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color:aliceblue;
-}
-.Menu-Bar ul li
-{
-width: 120px;
-margin: 15px;
-padding: 15px;
-}
-.Menu-Bar ul li a
-{
-text-decoration: none;
-color:white;
-}
-.active,.Menu-Bar ul li :hover
-{
-background-color:rgb(53, 53, 125);
-border-radius: 3px;
-
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .Menu-Bar a:hover {
+    background-color: #C7CED9;
+    color: #222A38;
+  }
+  
+  /* Add a color to the active/current link */
+  .Menu-Bar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 .card{
     text-align: left;
     font-size: medium;
@@ -88,6 +91,11 @@ border-radius: 3px;
     border-radius: 8px;
     margin: 0%;
 
-
-
+}
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -10px;
+    width: 100%;
 }
