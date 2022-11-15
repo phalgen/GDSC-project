@@ -12,7 +12,6 @@ body
     font-family: sans-serif;
     min-height: 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 .Menu-Bar {
   display: flex;
@@ -72,7 +71,7 @@ body
   .card {
     box-shadow: #C7CED9;
     background-color: #222A38;
-    transform: translateY(10px);
+    color:#C7CED9;
   }
   .card:hover{
     border-radius: 13%;
@@ -111,6 +110,7 @@ body
     text-align: center;
     cursor: pointer;
     width: 100%;
+    pointer-events: none;
   }
   
   .button:hover {
@@ -129,4 +129,14 @@ font-family: 'Spline Sans', sans-serif;
     height: 150px;
     margin-top: -3200px;
     width: 100%;
+}
+img{
+  height:333px;
+  width:0vw;
+}
+footer{
+  transform: translateY(63px);
+}
+img[src="AR.jpg"]{
+  width:0px;
 }
